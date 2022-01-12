@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  font-style: italic;
+}
+.card {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 4px;
+  width: 500px;
+}
+.card button {
+  width: 350px;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 10px;
+  font-size: 30px;
+  background-color: blue;
+  color: white;
+}
+.card input {
+  width: 300px;
+  height: 30px;
+}
